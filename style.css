@@ -1,0 +1,39 @@
+.flex-container {
+  display: flex;
+  gap: 16px;
+}
+
+.box {
+  flex: 1;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.h1 {
+  font: helvetica;
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.html, body {
+  margin: 0;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
