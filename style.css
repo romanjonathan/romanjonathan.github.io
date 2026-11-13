@@ -32,11 +32,12 @@
 }
 
 .frozen-header {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #FFF;
   padding: 1px 1px;
   z-index: 1000;
 
-  padding-top: env(safe-area-inset-top); 
+  padding-top: env(safe-area-inset-top);
 }
