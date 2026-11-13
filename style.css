@@ -31,13 +31,11 @@
   margin: auto;
 }
 
-.frozen-header {
-  position: -webkit-sticky;
+.section-heading {
   position: sticky;
   top: 0;
+  width: 100%;
   background-color: #FFF;
+  z-index: 999;
   padding: 1px 1px;
-  z-index: 1000;
-
-  padding-top: env(safe-area-inset-top);
 }
